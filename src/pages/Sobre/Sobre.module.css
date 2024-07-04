@@ -1,0 +1,49 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+.bio strong {
+    font-weight: bold;
+    color: var(--secondary);
+}
+.textos h2, p{
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.icones img {
+    height: 3.125rem;
+}
+.file {
+    height: 30%;
+    width: 30%;
+    border-radius: 100px;
+}
